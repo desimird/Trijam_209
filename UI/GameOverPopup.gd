@@ -18,9 +18,7 @@ func _process(delta):
 	#points = 100* Global.enemies_died_high
 	points = 100
 	label_2.text = "%d" % points
-	if Input.is_action_just_pressed("ui_accept"):
-		PlayerStats.set_health(PlayerStats.max_health)
-		get_tree().change_scene("res://World.tscn")
+	
 
 
 #func _on_Button_pressed():

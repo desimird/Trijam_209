@@ -16,8 +16,10 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	if Input.is_action_just_pressed("ui_accept") and game_over_popup.visible:
+		PlayerStats.set_health(PlayerStats.max_health)
+		get_tree().change_scene("res://World.tscn")
 
 func shots_fired(node, location, direction):
 	Global.projectile_dir = direction
