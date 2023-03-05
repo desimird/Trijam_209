@@ -26,3 +26,7 @@ chech this E 0:00:00.533   get_global_transform: Condition "!is_inside_tree()" i
 
 
 time spent ~ 2:10  
+
+
+
+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 pta git
