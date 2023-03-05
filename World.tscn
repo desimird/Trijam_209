@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://UI/GameOverPopup.tscn" type="PackedScene" id=1]
+[ext_resource path="res://UI/IngameUI.tscn" type="PackedScene" id=2]
+[ext_resource path="res://World/lvl_gen.tscn" type="PackedScene" id=4]
+[ext_resource path="res://World.gd" type="Script" id=5]
+
+[node name="World" type="Node2D"]
+script = ExtResource( 5 )
+lvl_gen = ExtResource( 4 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="GameOverPopup" parent="CanvasLayer" instance=ExtResource( 1 )]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -26.0
+margin_top = -10.0
+
+[node name="IngameUI" parent="CanvasLayer" instance=ExtResource( 2 )]

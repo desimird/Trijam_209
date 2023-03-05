@@ -1,0 +1,28 @@
+start menu
+in menu timer and artifacts
+player movement tweek
+mayyybe camera shaki shaki
+enemy that stand and shoot vertical horizontal 
+
+select nicer places to spawn player coresponding to artifact
+
+sound effects just ot find them all logic work
+
+
+art everything
+ui 
+world 
+player
+enemies 
+
+
+
+chech this E 0:00:00.533   get_global_transform: Condition "!is_inside_tree()" is true. Returned: get_transform()
+  <C++ Source>  scene/2d/canvas_item.cpp:479 @ get_global_transform()
+  <Stack Trace> lvl_gen.gd:43 @ _ready()
+                World.gd:14 @ _ready()
+
+
+
+
+time spent ~ 2:10  
